@@ -25,7 +25,7 @@ function Scrollbar:create(x, y, widht, height, heightBar, colors, orientation, v
     scrolls.valuesVisible = valuesVisible
     scrolls.orientation = orientation
     scrolls.scrollOffset = (orientation == 'horizontal' and x or y)
-    scrolls.lastOffset = 0
+    scrolls.lastOffset = y
 
     data[scrolls] = {}
 
